@@ -1,5 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
+  background-color: #f2f4fc;
 }
 
 body {
@@ -9,6 +10,13 @@ body {
 
 h1 {
   font-size: 60px;
+  font-weight: 700;
+  color: #292e47;
+}
+
+h2 {
+  font-size: 50px;
+  color: #292e47;
   font-weight: 700;
 }
 
@@ -81,6 +89,10 @@ p {
   max-width: 100px;
 }
 
+.section3 {
+  margin-bottom: 200px;
+}
+
 .grup-sec3 {
   display: flex;
   justify-content: space-between;
@@ -89,8 +101,38 @@ p {
 
 .ficha-sec3 {
   width: 300px;
+  background-color: #fff;
+  box-shadow: 10px 10px 5px #f2f4fc;
 }
 
 .ficha-sec3 > img {
   width: 300px;
+}
+
+.text-fitxa {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.section4 {
+  height: 800px;
+  background-color: #292e47;
+}
+
+.targeta-noia {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: flex-end;
 }
