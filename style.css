@@ -1,0 +1,32 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  height: 122px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-links {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: #6b708d;
+  padding: 0px 5px;
+}
+
+.menu1 {
+  color: #072ac8;
+}
+
+.boto-contact {
+  text-decoration: none;
+  background-color: #072ac8;
+  color: #f2f4fc;
+  padding: 15px 36px;
+}
