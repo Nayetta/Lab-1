@@ -43,7 +43,11 @@ p {
   color: #6b708d;
 }
 
-.section1 {
+.section2 {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .section1 img {
