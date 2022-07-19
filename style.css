@@ -1,11 +1,10 @@
 * {
   font-family: "Roboto", sans-serif;
-  background-color: #f2f4fc;
 }
 
 body {
-  width: 80%;
-  margin: 0 auto;
+  padding: 10%;
+  background-color: #f2f4fc;
 }
 
 h1 {
@@ -15,8 +14,13 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 35px;
   color: #292e47;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -93,6 +97,23 @@ p {
   margin-bottom: 200px;
 }
 
+.section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section4 h2 {
+  color: #f2f4fc;
+  text-align: center;
+}
+
+.section4 p {
+  color: #ffc600;
+  text-align: center;
+  padding: 70px;
+}
+
 .grup-sec3 {
   display: flex;
   justify-content: space-between;
@@ -115,24 +136,49 @@ p {
 }
 
 .section4 {
-  height: 800px;
+  height: 300px;
+  padding: 90px;
   background-color: #292e47;
 }
 
-.targeta-noia {
+.section5 {
+  height: 600px;
+  margin-top: 200px;
+}
+
+.section5 img {
+  width: 80px;
+}
+
+.section6 {
+  background-color: #ffc600;
+  height: 400px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.formulari {
+  padding: 15px 36px;
 }
 
 footer {
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
 
 .footer-logo {
+  margin: 40px;
+  max-width: 200px;
+  border: none;
+}
+
+.footer-logo p {
+  font-size: 13px;
 }
 
 .footer-menu {
-  display: flex;
-  justify-content: flex-end;
+  margin: 40px;
 }
