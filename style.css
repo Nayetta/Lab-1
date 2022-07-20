@@ -66,9 +66,6 @@ p {
   justify-content: center;
 }
 
-.cont1-esquerra {
-}
-
 .paragraf-sec1 {
   margin-right: 112px;
   margin-bottom: 40px;
@@ -91,6 +88,11 @@ p {
 
 .section2 img {
   max-width: 100px;
+  filter: grayscale(100%);
+}
+
+.section2 img:hover {
+  filter: grayscale(0%);
 }
 
 .section3 {
