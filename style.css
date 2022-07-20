@@ -3,7 +3,8 @@
 }
 
 body {
-  padding: 10%;
+  max-width: 1000px;
+  margin: auto;
   background-color: #f2f4fc;
 }
 
@@ -22,6 +23,11 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: 700;
+}
+
+h4 {
+  color: #a2d6f9;
+  font-weight: 400;
 }
 
 nav {
@@ -60,6 +66,12 @@ p {
   color: #6b708d;
 }
 
+.p2 {
+  color: #ffc600;
+  text-align: center;
+  padding: 70px;
+}
+
 .section1 {
   margin-top: 50px;
   display: flex;
@@ -67,7 +79,7 @@ p {
 }
 
 .paragraf-sec1 {
-  margin-right: 112px;
+  margin-right: 160px;
   margin-bottom: 40px;
 }
 
@@ -78,6 +90,11 @@ p {
 .container-botonets1 > a {
   margin-right: 30px;
 }
+
+/* .cont1-targetes-volants {
+  position: relative;
+  display: flex;
+ } */
 
 .section2 {
   padding: 160px 0px;
@@ -108,12 +125,6 @@ p {
 .section4 h2 {
   color: #f2f4fc;
   text-align: center;
-}
-
-.section4 p {
-  color: #ffc600;
-  text-align: center;
-  padding: 70px;
 }
 
 .grup-sec3 {
@@ -152,6 +163,17 @@ p {
   width: 80px;
 }
 
+.ficha-sec5 {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 10px 10px 5px #f2f4fc;
+  padding: 30px;
+}
+
+.targeta-noia p {
+  font-size: 13px;
+}
+
 .section6 {
   background-color: #ffc600;
   height: 400px;
@@ -159,6 +181,14 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.section6 > p {
+  margin: 50px 0px;
+}
+
+.section6 > h2 {
+  margin: 0px 0px;
 }
 
 .formulari {
