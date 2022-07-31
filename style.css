@@ -70,6 +70,7 @@ p {
   color: #ffc600;
   text-align: center;
   padding: 70px;
+  margin: 0;
 }
 
 .section1 {
@@ -125,6 +126,29 @@ p {
 .section4 h2 {
   color: #f2f4fc;
   text-align: center;
+  margin: 0;
+}
+
+.targeta-noia {
+  display: flex;
+}
+
+.targeta-noia img {
+  width: 60px;
+  height: 60px;
+}
+
+.targeta-noia p {
+  font-size: 13px;
+  margin: 0 0 0 10px;
+}
+.targeta-noia h4 {
+  margin: 10px;
+}
+
+.text-targeta {
+  display: flex;
+  flex-direction: column;
 }
 
 .grup-sec3 {
@@ -164,14 +188,10 @@ p {
 }
 
 .ficha-sec5 {
-  width: 300px;
+  width: 250px;
   background-color: #fff;
   box-shadow: 10px 10px 5px #f2f4fc;
-  padding: 30px;
-}
-
-.targeta-noia p {
-  font-size: 13px;
+  padding: 25px;
 }
 
 .section6 {
